@@ -169,10 +169,10 @@
                         <span class="db-go">Mulai belajar <svg fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6l6 6-6 6"/></svg></span>
                     </a>
 
-                    <a href="{{ $r('video.animasi') }}" class="db-card">
+                    <a href="{{ $r('video.pembelajaran') }}" class="db-card">
                         <div class="db-ic"><svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14.75 11.17l-3.2-2.13A1 1 0 0010 9.87v4.26a1 1 0 001.55.83l3.2-2.13a1 1 0 000-1.66z"/><circle cx="12" cy="12" r="9"/></svg></div>
-                        <h3>Video Animasi</h3>
-                        <p>Tonton simulasi visual pergerakan paket data pada jaringan komputer.</p>
+                        <h3>Video Pembelajaran</h3>
+                        <p>Tonton materi pembelajaran dalam bentuk video yang menarik dan informatif.</p>
                         <span class="db-go">Tonton video <svg fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6l6 6-6 6"/></svg></span>
                     </a>
 

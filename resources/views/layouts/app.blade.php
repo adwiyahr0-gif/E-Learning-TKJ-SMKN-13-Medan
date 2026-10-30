@@ -45,9 +45,9 @@
                         <span x-show="sidebarOpen" class="whitespace-nowrap">Modul Materi</span>
                     </a>
 
-                    <a href="#" title="Video Animasi" class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium hover:bg-slate-800 hover:text-white transition-colors">
+                    <a href="{{ route('video.pembelajaran') }}" title="Video Pembelajaran" class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium hover:bg-slate-800 hover:text-white transition-colors">
                         <span class="text-lg shrink-0">▶️</span> 
-                        <span x-show="sidebarOpen" class="whitespace-nowrap">Video Animasi</span>
+                        <span x-show="sidebarOpen" class="whitespace-nowrap">Video Pembelajaran</span>
                     </a>
 
                     <a href="#" title="Kuis Evaluasi" class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium hover:bg-slate-800 hover:text-white transition-colors">

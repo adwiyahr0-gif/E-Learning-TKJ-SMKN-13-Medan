@@ -138,9 +138,9 @@
                         <span x-show="sidebarOpen" x-cloak>Modul Materi</span>
                     </a>
 
-                    <a href="{{ route('video.animasi') }}" title="Video Animasi" class="sb-link {{ request()->routeIs('video.*') ? 'active' : '' }}" @if(request()->routeIs('video.*')) aria-current="page" @endif>
+                    <a href="{{ route('video.animasi') }}" title="Video Pembelajaran" class="sb-link {{ request()->routeIs('video.*') ? 'active' : '' }}" @if(request()->routeIs('video.*')) aria-current="page" @endif>
                         <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14.75 11.17l-3.2-2.13A1 1 0 0010 9.87v4.26a1 1 0 001.55.83l3.2-2.13a1 1 0 000-1.66z"/><circle cx="12" cy="12" r="9"/></svg>
-                        <span x-show="sidebarOpen" x-cloak>Video Animasi</span>
+                        <span x-show="sidebarOpen" x-cloak>Video Pembelajaran</span>
                     </a>
 
                     <a href="{{ route('kuis.evaluasi') }}" title="Kuis Evaluasi" class="sb-link {{ request()->routeIs('kuis.*') ? 'active' : '' }}" @if(request()->routeIs('kuis.*')) aria-current="page" @endif>

@@ -26,7 +26,7 @@
     <x-slot name="header">
         <div class="flex items-center justify-between">
             <h2 class="font-bold text-xl text-gray-800 leading-tight tracking-tight">
-                {{ __('Video Animasi') }}
+                {{ __('Video Pembelajaran') }}
             </h2>
         </div>
     </x-slot>
@@ -154,13 +154,13 @@
         <div class="vd-wrap">
 
             <!-- ============ BANNER ============ -->
-            <section class="vd-banner" aria-label="Ruang animasi">
+            <section class="vd-banner" aria-label="Ruang Pembelajaran">
                 <svg class="vd-arcs" viewBox="0 0 600 600" fill="none" stroke="#fff" stroke-width="1" aria-hidden="true">
                     <circle cx="300" cy="300" r="80"/><circle cx="300" cy="300" r="140"/><circle cx="300" cy="300" r="200"/><circle cx="300" cy="300" r="260"/><circle cx="300" cy="300" r="320"/>
                 </svg>
                 <svg class="vd-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2c.6 5.2 4.8 9.4 10 10-5.2.6-9.4 4.8-10 10-.6-5.2-4.8-9.4-10-10 5.2-.6 9.4-4.8 10-10z"/></svg>
                 <p class="vd-live"><span class="vd-dot"></span> {{ count($videos) }} video tersedia</p>
-                <h1 class="vd-display vd-title"><span>Ruang Animasi</span> &amp; Simulasi Jaringan</h1>
+                <h1 class="vd-display vd-title"><span>Ruang Pembelajaran</span> &amp; Simulasi Jaringan</h1>
                 <p class="vd-sub">Tonton simulasi visual pergerakan paket data, catat intisarinya, dan tanya AI Tutor kalau ada yang belum jelas.</p>
             </section>
 
